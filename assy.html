@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM1 Campaign</title>
+    <style src="externalStyle.js"></style>
+</head>
+<body>
+    <header> 
+        <div id="logo">
+            <img src="IIUM.png" alt="IIUM Logo" />
+        </div>
+        <h3> RM1 CAMPAIGN </h3>
+    </header>
+        <div class="infobar">
+            <ul>
+                <li>
+                    <a href="#"><br>Tagline</a>
+                    <div id="texthover">Let your contributions be perpetual for the pleasure of Allah SWT</div>
+                </li>
+                <li>
+                    <a href="#"><br>Quranic verse</a>
+                    <div id="texthover">"The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing." - Surah Al Baqarah: 261</div>
+                </li>
+            </ul>
+        </div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="staffNo">Staff No.:</label>
+            <input type="text" id="staffNo" name="staffNo" pattern="[0-9]+" title="Please enter only numbers" required>
+
+            <label for="contactNo">Contact No.:</label>
+            <input type="text" id="contactNo" name="contactNo" pattern="[0-9]{9,11}" title="Please enter a valid contact number (9-11 digits)" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="amount">Amount to be deducted (RM):</label>
+            <input type="number" id="amount" name="amount" step="0.01" min="0" required>
+            
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+</body>
+<footer>
+    <p>CONTACT US
+        IIUM ENDOWMENT FUND
+        Level 3, Rectory
+        International Islamic University Malaysia
+        P.O Box 10 
+        50728 Kuala Lumpur
+        Tel : 03 6194 4268
+        Email : ief@iium.edu.my
+        Website : www.iium.edu.my/ief
+        Facebook : www.facebook.com/ief.official/
+        </p>
+</footer>
+</html>
+

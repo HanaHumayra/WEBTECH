@@ -1,0 +1,44 @@
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Set a background color for the entire body */
+        }
+
+        header {
+            text-align: center;
+            background: url('bg.png');
+            background-size: 15% 80%; /* Set the size of the background image */
+            height: 20%;
+        }
+
+        #logo {
+            display: inline-block;
+            padding: 0px 0px 0px 5%; /* Add padding to the logo container */
+        }
+
+        #logo img {
+            width: 15%;
+            height: 15%;
+        }
+
+        h3 {
+            font-family : Georgia, Times, "Times New Roman", serif;
+            padding-left: 5%;
+        }
+
+        #texthover {
+            display: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .infobar ul li:hover #texthover {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+    </style>
